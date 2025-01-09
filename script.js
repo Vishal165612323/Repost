@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const addManualExpBtn = document.getElementById("addManualExpBtn");
   const removeSelectedBtn = document.getElementById("removeSelectedBtn");
 
-  // Load user data from local storage
+  // loadd user data from local storage
   function loadUserData() {
     const savedUserList = JSON.parse(localStorage.getItem("userList"));
     if (savedUserList) {
