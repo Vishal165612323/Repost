@@ -12,10 +12,10 @@
   <div class="container">
     <h1>User List</h1>
 
-    <!-- User List -->
+    
     <section>
       <ul id="userListUl" aria-live="polite">
-        <!-- The user list will be dynamically populated here -->
+        
       </ul>
     </section>
   </div>
@@ -24,7 +24,7 @@
     document.addEventListener("DOMContentLoaded", function () {
       const userListUl = document.getElementById("userListUl");
 
-      // Check if user is redirected from the login page
+      
       if (!localStorage.getItem('userList')) {
         alert("No user data available!");
         return;
